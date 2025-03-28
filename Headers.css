@@ -1,0 +1,66 @@
+/* Asegurar que el footer esté al final de la página */
+html, body, #root {
+    height: 100%; /* Altura completa */
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    flex: 1; /* El contenido ocupa el espacio restante */
+}
+.img-header {
+    width: 100px; 
+    border-radius: 15px;
+    border: 2px solid red;
+    margin: 0 10px; 
+}
+.img-header2 {
+    width: 100px; 
+    border-radius: 15px;
+    border: 2px solid blue;
+    margin: 0 10px; 
+}
+.img-header3 {
+    width: 100px; 
+    border-radius: 15px;
+    border: 2px solid orange;
+    margin: 0 10px; 
+}
+.rounded-text {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    font-weight: 400; /* Texto normal (menos grueso) */
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+.image-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 10px; 
+}
+.title-outline {
+    color: white; 
+    text-shadow: 
+        -1px -1px 0 red,  
+        1px -1px 0 red,
+        -1px 1px 0 red,
+        1px 1px 0 red; 
+}
+.title-outline2 {
+    color: white; 
+    text-shadow: 
+        -1px -1px 0 blue,  
+        1px -1px 0 blue,
+        -1px 1px 0 blue,
+        1px 1px 0 blue; 
+}
+.title-outline3 {
+    color: white; 
+    text-shadow: 
+        -1px -1px 0 orange,  
+        1px -1px 0 orange,
+        -1px 1px 0 orange,
+        1px 1px 0 orange; 
+}
